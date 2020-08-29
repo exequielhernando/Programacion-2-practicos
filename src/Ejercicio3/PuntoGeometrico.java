@@ -13,9 +13,9 @@ public class PuntoGeometrico {
 		y = 0;
 	}
 	
-	public void desplazarPuntoEnElPlano(int x, int y) {
-		this.x += x;
-		this.y += y;
+	public PuntoGeometrico desplazarPuntoEnElPlano(int x, int y) {
+		PuntoGeometrico p1 = new PuntoGeometrico(this.x += x, this.y += y);
+		return p1;
 	}
 	public int calcularDistanciaEuclidea(int x, int y) {
 		int distancia = (int) Math.sqrt((Math.pow((this.x-x), 2)) + (Math.pow((this.y - y), 2) ));
