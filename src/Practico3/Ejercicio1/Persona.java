@@ -1,4 +1,4 @@
-package Ejercicio1;
+package Practico3.Ejercicio1;
 
 import java.time.LocalDate;
 import java.time.Period;

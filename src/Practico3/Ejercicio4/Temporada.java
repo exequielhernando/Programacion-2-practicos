@@ -1,4 +1,4 @@
-package Ejercicio4;
+package Practico3.Ejercicio4;
 
 public class Temporada {
 	private Episodio episodios [];
