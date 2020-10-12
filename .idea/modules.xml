@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< Updated upstream
-      <module fileurl="file://$PROJECT_DIR$/Programacion II.iml" filepath="$PROJECT_DIR$/Programacion II.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Trabajos practicos/Trabajos practicos.iml" filepath="$PROJECT_DIR$/Trabajos practicos/Trabajos practicos.iml" />
-=======
-      <module fileurl="file://$PROJECT_DIR$/../Parcialito 4.iml" filepath="$PROJECT_DIR$/../Parcialito 4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Programacion II.iml" filepath="$PROJECT_DIR$/Programacion II.iml" />
->>>>>>> Stashed changes
+      <module fileurl="file://$PROJECT_DIR$/.idea/Programacion-2-practicos.iml" filepath="$PROJECT_DIR$/.idea/Programacion-2-practicos.iml" />
     </modules>
   </component>
 </project>
