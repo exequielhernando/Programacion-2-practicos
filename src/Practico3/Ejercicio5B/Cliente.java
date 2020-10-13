@@ -1,4 +1,4 @@
-package Ejercicio5B;
+package Practico3.Ejercicio5B;
 
 import java.time.LocalDate;
 import java.time.Period;
@@ -19,8 +19,7 @@ public class Cliente extends Persona{
 			isClienteFrecuente = true;
 		}
 		else {
-			isClienteFrecuente = false;
-		}
+        }
 		return isClienteFrecuente;
 	}
 	public LocalDate getFechaUltimaVisita() {

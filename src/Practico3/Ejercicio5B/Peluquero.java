@@ -1,5 +1,4 @@
-package Ejercicio5B;
-
+package Practico3.Ejercicio5B;
 import java.time.LocalDate;
 
 public class Peluquero extends Persona{
@@ -10,7 +9,7 @@ public class Peluquero extends Persona{
 	
 	public boolean isDisponible(LocalDate fechaTurno) {
 		boolean isDisponible = false;
-		
+		return isDisponible;
 	}
 	
 }

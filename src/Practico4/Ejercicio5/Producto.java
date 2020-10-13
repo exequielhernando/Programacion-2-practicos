@@ -3,7 +3,7 @@ package Practico4.Ejercicio5;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-class Producto{
+public class Producto{
     private LocalDate fechaVencimiento;
     private int numeroLote;
     private LocalDate fechaEnvasado;
@@ -35,7 +35,7 @@ class Producto{
         return fechaEnvasado;
     }
     public void setFechaEnvasado(String fechaEnvasado){
-        DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/mm/yyyy");
+        DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         this.fechaEnvasado = LocalDate.parse(fechaEnvasado, fmt);
     }
     public String getGranjaOrigen(){

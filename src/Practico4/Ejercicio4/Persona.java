@@ -106,6 +106,6 @@ public class Persona {
                 "Fecha de nacimiento: " + getFechaNacimiento();
     }
     public boolean isDisponible(){
-        return (getEstado()=="En pais de origen");
+        return (getEstado().contains("En pais de origen"));
     }
 }

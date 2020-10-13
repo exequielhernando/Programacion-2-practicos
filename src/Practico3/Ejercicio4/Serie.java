@@ -53,16 +53,6 @@ public class Serie {
 	public boolean isSerieVista() {
 		boolean isSerieVista = false;
 		int i = 0;
-		while(i > temporadas.length) {
-			if (temporadas[i].isEpisodiosTemporadaVistos() == true) {
-				isSerieVista = true;
-			}
-			else {
-				isSerieVista = false;
-				break;
-			}
-			i++;
-		}
-		return isSerieVista;
+        return false;
 	}
 }

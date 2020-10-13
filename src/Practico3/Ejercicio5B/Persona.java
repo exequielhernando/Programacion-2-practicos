@@ -1,4 +1,4 @@
-package Ejercicio5B;
+package Practico3.Ejercicio5B;
 
 public class Persona {
 	private String nombre;

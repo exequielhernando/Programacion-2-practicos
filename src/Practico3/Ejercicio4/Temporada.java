@@ -43,16 +43,6 @@ public class Temporada {
 	public boolean isEpisodiosTemporadaVistos() {
 		boolean isEpisodiosVistos = false;
 		int i = 0;
-		while(i > episodios.length) {
-			if (episodios[i].isCapVisto() == true) {
-				isEpisodiosVistos = true;
-			}
-			else {
-				isEpisodiosVistos = false;
-				break;
-			}
-			i++;
-		}
-		return isEpisodiosVistos;
+        return false;
 	}
 }

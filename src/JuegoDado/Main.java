@@ -20,18 +20,11 @@ public class Main {
 			j1=j2;
 			//j1.incrementarPuntos();
 			// SI SON EL MISMO OBJETO 
-			if (j1 == j2) { // COMPARA OBJETOS ES DECIR DIRECCIONES DE MEMORIA
-				System.out.println("SON IGUALES");
-			} else
-				System.out.println("SON DISTINTOS");
-				
-			if (j1.equals(j2)) {
-				System.out.println("SON IGUALES");
-			} else
-				System.out.println("SON DISTINTOS");
-			
-			
-			
-			
-		}
+		// COMPARA OBJETOS ES DECIR DIRECCIONES DE MEMORIA
+		System.out.println("SON IGUALES");
+
+		System.out.println("SON IGUALES");
+
+
+	}
 }
